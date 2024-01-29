@@ -25,7 +25,7 @@
     <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
 
     <!-- Title Tag -->
-    <title>Ian Mucheru</title>
+    <title>Richard Ryan</title>
   </head>
   <body class="active">
     <!-- Preload -->
@@ -46,6 +46,111 @@
         class="circle"
       />
     </div>
+
+    <!-- Header -->
+    <header class="header active" data-header>
+      <div class="container">
+        <!-- Logo -->
+        <a class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="40"
+            height="40"
+            alt="richard logo"
+          />
+        </a>
+
+        <!-- Menu Open Icon-->
+        <button class="nav__open-btn" aria-label="open menu" data-nav-toggler>
+          <img
+            src="./assets/images/menu.svg"
+            width="17"
+            height="17"
+            alt="menu icon"
+          />
+        </button>
+
+        <!-- Navbar -->
+        <nav class="navbar" data-navbar>
+          <div class="navbar__top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/nav-logo.svg"
+                width="140"
+                height="40"
+                alt="richard logo"
+                class="img"
+              />
+            </a>
+
+            <!-- Menu Close Icon-->
+            <button
+              class="nav__close-btn"
+              aria-label="close menu"
+              data-nav-toggler=""
+            >
+              <span class="span one"></span>
+              <span class="span two"></span>
+            </button>
+          </div>
+
+          <!-- Nav Links -->
+          <ul class="navbar__list">
+            <li class="navbar__item" data-nav-link>
+              <a href="#home" class="navbar__link">Home</a>
+            </li>
+
+            <li class="navbar__item" data-nav-link>
+              <a href="#gallery" class="navbar__link">Gallery</a>
+            </li>
+
+            <li class="navbar__item" data-nav-link>
+              <a href="#about" class="navbar__link">About</a>
+            </li>
+
+            <li class="navbar__item" data-nav-link>
+              <a href="#services" class="navbar__link">Services</a>
+            </li>
+
+            <li class="navbar__item" data-nav-link>
+              <a href="#portfolio" class="navbar__link">Portfolio</a>
+            </li>
+
+            <li class="navbar__item" data-nav-link>
+              <a href="#contact" class="navbar__link">Contact Us</a>
+            </li>
+          </ul>
+
+          <!-- SignIn/SignUp -->
+          <button class="login__btn">
+            <img
+              src="assets/images/user.svg"
+              width="21"
+              height="21"
+              alt="user icon"
+            />
+
+            <span class="span">Login</span>
+          </button>
+
+          <!-- Address Info -->
+          <p class="navbar__title">My Address</p>
+
+          <address class="navbar__text">
+            3287 Indiana Avenue, Waialua, Hawaii
+          </address>
+
+          <!-- Contact Info -->
+          <p class="navbar__text">
+            Urgent issue? call us at
+            <a href="tel:808-561-3846" class="contact__link">808-561-3846</a>
+          </p>
+        </nav>
+
+        <!-- Overlay -->
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
 
     <!-- Script Tags -->
     <script src="./assets/js/script.js"></script>

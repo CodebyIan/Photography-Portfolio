@@ -6,12 +6,12 @@ This is a photographer portfolio html template, made by CodebyIan.
 
 #---------- HEADER ----------#
 
-alt = Richard home
+alt = richard logo
 
 aria-label = open menu
 alt = menu icon
 
-alt = Richard home
+alt = richard logo
 
 aria-label = close menu
 
